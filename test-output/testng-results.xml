@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-24T20:41:50 IST" name="Suite" finished-at="2024-08-24T20:42:06 IST" duration-ms="16394">
+    <groups>
+    </groups>
+    <test started-at="2024-08-24T20:41:50 IST" name="Test" finished-at="2024-08-24T20:42:06 IST" duration-ms="16394">
+      <class name="TestClass.LogInPageTestClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:41:50 IST" name="setup" finished-at="2024-08-24T20:41:53 IST" duration-ms="3016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="OpenWebsite(java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:41:53 IST" name="OpenWebsite" finished-at="2024-08-24T20:41:54 IST" duration-ms="1602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.germanyiscalling.com/common/login/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="verifyAbleToEnterCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:41:57 IST" name="verifyAbleToEnterCredential" data-provider="LoginData" finished-at="2024-08-24T20:42:00 IST" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaibullhakhan1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[810551Aa$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleToEnterCredential -->
+        <test-method signature="verifyAbleToEnterCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:42:00 IST" name="verifyAbleToEnterCredential" data-provider="LoginData" finished-at="2024-08-24T20:42:02 IST" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaibullha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[810551Aa$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleToEnterCredential -->
+        <test-method signature="verifyAbleToEnterCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:42:02 IST" name="verifyAbleToEnterCredential" data-provider="LoginData" finished-at="2024-08-24T20:42:04 IST" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaibullhakhan1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[938551Aa$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleToEnterCredential -->
+        <test-method signature="verifyAbleToEnterCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:42:04 IST" name="verifyAbleToEnterCredential" data-provider="LoginData" finished-at="2024-08-24T20:42:05 IST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zaibullha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[814651Aa$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleToEnterCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.LogInPageTestClass@1a451d4d]" started-at="2024-08-24T20:42:05 IST" name="closeBrowser" finished-at="2024-08-24T20:42:06 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClass.LogInPageTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

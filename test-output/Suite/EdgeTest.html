@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  EdgeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EdgeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 16 17:16:06 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>152 seconds (152982 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.EnterTheQuantity()'><b>EnterTheQuantity</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectRam4GBValidation()'><b>SelectRam4GBValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>5</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.subTotalPrice()'><b>subTotalPrice</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.ClickOnAgreeTest()'><b>ClickOnAgreeTest</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.AddToWishListValidation()'><b>AddToWishListValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>5</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectSofTotalComanderValidation()'><b>SelectSofTotalComanderValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.testTheSeletedQty()'><b>testTheSeletedQty</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.EmailBtnClickValidation()'><b>EmailBtnClickValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.TotalPrice()'><b>TotalPrice</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>3</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectOsVistaHomeValidation()'><b>SelectOsVistaHomeValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectSofAcrobatReaderValidation()'><b>SelectSofAcrobatReaderValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectProce22GHzValidation()'><b>SelectProce22GHzValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectRam8GBValidation()'><b>SelectRam8GBValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectHDD400GBValidation()'><b>SelectHDD400GBValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectProce25GHzValidation()'><b>SelectProce25GHzValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectSofMicOfficeValidation()'><b>SelectSofMicOfficeValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectHDD320GBValidation()'><b>SelectHDD320GBValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.UnitPriceTest()'><b>UnitPriceTest</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.AddToCartValidation()'><b>AddToCartValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>5</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectRam2GBValidation()'><b>SelectRam2GBValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.giftWrapTest()'><b>giftWrapTest</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>5</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.clickAsGuest()'><b>clickAsGuest</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+<tr>
+<td title='TestClass.AddProdcutPageTest.SelectOsPremiumHomeValidation()'><b>SelectOsPremiumHomeValidation</b><br>Test class: TestClass.AddProdcutPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.AddProdcutPageTest@3e58a80e</td></tr>
+<tr>
+<td title='TestClass.OrderPageTest.clickOnCheckOut()'><b>clickOnCheckOut</b><br>Test class: TestClass.OrderPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestClass.OrderPageTest@294425a7</td></tr>
+</table><p>
+</body>
+</html>
